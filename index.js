@@ -38,7 +38,7 @@ client.on('ready', async () => {
         channelId: channel.id,
         guildId: guildId,
         selfMute: true,
-        selfDeaf: true,
+        selfDeaf: false,
         adapterCreator: channel.guild.voiceAdapterCreator,
       });
     } catch (error) {
